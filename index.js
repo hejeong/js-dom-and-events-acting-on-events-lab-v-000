@@ -22,5 +22,5 @@ function addNewLiOnClick(){
   submit.addEventListener('click', function(){
     addNewElementAsLi();
   })
-  $('input:first').value = '';
+  $('input:first').val() = '';
 }
