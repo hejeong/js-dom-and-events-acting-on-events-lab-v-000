@@ -16,3 +16,10 @@ function addNewElementAsLi(){
   const list = document.querySelector('.employee-list');
   list.append(newLi);
 }
+
+function addNewLiOnClick(){
+  let submit = document.querySelector("input[type = 'submit']");
+  document.addEventListener('click', function(){
+    
+  })
+}
